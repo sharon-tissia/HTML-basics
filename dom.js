@@ -34,10 +34,27 @@
 //for(var i = 0; i < li.length; i++){
    // li[i].style.backgroundColor = '#f4f4f4'
 //QUERYSELECTOR//
-var header = document.querySelector('#main-header');
-header.style.borderBottom = 'solid 4px #ccc';
-var input = document.querySelector('input');
-input.value = 'Hello World'
-var submit = document.querySelector('input[type="submit"]');
-submit.value = "SEND"
+//var header = document.querySelector('#main-header');
+//header.style.borderBottom = 'solid 4px #ccc';
+//var input = document.querySelector('input');
+//input.value = 'Hello World'
+//var submit = document.querySelector('input[type="submit"]');
+//submit.value = "SEND"
+// TRAVERSING THE DOM//
+//var itemList = document.querySelector('#items');
+//parentNode
+//console.log(itemList.parentNode);
+//createElement
+//Create a div
+var newDiv =documenty.createElement('div');
+//Add class
+newDiv.claaName ='Hello';
+//Add id
+newDiv.d = 'hello1';
+//Add attr
+newDiv.setAttridute('title','Hello Div');
+//create text node
+var newDivText =document.createTextNode('Hello world');
+//Add text too div
+newDiv.appendChild(newDivText);
 
