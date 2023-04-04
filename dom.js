@@ -46,15 +46,20 @@
 //console.log(itemList.parentNode);
 //createElement
 //Create a div
-var newDiv =documenty.createElement('div');
+//var newDiv =documenty.createElement('div');
 //Add class
-newDiv.claaName ='Hello';
+//ewDiv.claaName ='Hello';
 //Add id
-newDiv.d = 'hello1';
+//newDiv.d = 'hello1';
 //Add attr
-newDiv.setAttridute('title','Hello Div');
+//newDiv.setAttridute('title','Hello Div');
 //create text node
-var newDivText =document.createTextNode('Hello world');
+//var newDivText =document.createTextNode('Hello world');
 //Add text too div
-newDiv.appendChild(newDivText);
+//newDiv.appendChild(newDivText);
+//var container = document.querySelector('header .container')
+//var h1 = document.querySelector('header h1');
+//console.log(newdiv);
+newDiv.style.fontSize = '30px'
+container.insertBefore(newDiv, h1)
 
