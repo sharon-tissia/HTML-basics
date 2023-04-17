@@ -63,3 +63,10 @@
 newDiv.style.fontSize = '30px'
 container.insertBefore(newDiv, h1)
 
+
+const myObj = {
+    name: "james"
+}
+
+console.log(myObj.name);
+
