@@ -1,18 +1,8 @@
-.red {
- color: red;
-}
-
-h1{
-    color:aquamarine;
+. {
+    box-sizing: border-box;
 }
 body {
-    color: blue
-}
-.box {
-    width: 100px;
-    padding: 20px;
-    height: 100px;
-    margin: 50px;
-    border:10px solid black;
-    background-color: yellowgreen;
+    background-color:aqua;
+    Display: flex;
+    align-items: center;
 }

@@ -5,91 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-compatible" content="ie=edge" />
     <title color="blue">Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
-
   <body>
-    <form action="" , method="POST" id="myForm">
-      <div>
-        <div>
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" , required />
-        </div>
-        <label for="name">Name</label>
-        <input
-          type="text"
-          name="password"
-          id="name"
-          placeholder="username"
-          required
-        />
+    <div class="container">
+      <div class="header">
+        <h2>Create Account</h2>
+        <form class="form" id="form">
+          <div class="form control">
+            <label for="Username" name="Username" id="Username">Username</label>
+            <input type="text" placeholder="johndoe" name="Username">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-check-exclamation"></i>
+            <div class="container">
+              <div class="header">
+              <div class="form control">
+                    <label for="Email" name="Email" id="Email">Email</label>
+                    <input type="Email" placeholder="johndoe@gmail.com" name="Email">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-check-exclamation"></i>
+                    <div class="form control">
+                      <label for="password" name="password" id="password">password</label>
+                      <input type="password"name="password">
+                      <i class="fas fa-check-circle"></i>
+                      <i class="fas fa-check-exclamation"></i>
+                      <div class="form control">
+                        <label for="password check" name="password check" id="passwod check">Password check</label>
+                        <input type="password check" name="password check">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-check-exclamation"></i>
+                        <div class="form control">
+                          <label for="Submit" name="Submit" id="Submit">Submit</label>
+                          <input type="Submit" name="Submit">
+                          <i class="fas fa-check-circle"></i>
+                          <i class="fas fa-check-exclamation"></i>            
+          </form>
       </div>
-      <div>
-        <label>Password</label>
-        <input type="password" , name="password" required />
-      </div>
-      <div>
-        <label for="date">Birthday</label>
-        <input type="date" name="date" id="date" />
-      </div>
-      <div>
-        <label for="age">Age</label>
-        <input type="number" name="age" id="age" min="1" max="200" />
-      </div>
-      <div>
-        Favourite fruit
-        <div>
-      </div> 
-        <label for="banana">banana</label>
-        <input type="checkbox" name="banana" id="banana" />
-      </div>
-      <div>
-        <label for="orange">orange</label>
-        <input type="checkbox" name="orange" id="orange">
-      </div>
-      <div>
-        Favourite fruit
-        <div>
-        <label for="mango">mango</label>
-        <input type="checkbox" name="mango" id="mango" />
-      </div>
-      <div>
-        gender
-        <div>
-        <label for="male">male</label>
-        <input type="radio" name="gender" id="male" value="male">
-      </div>
-      <div>
-        <label for="female">female</label>
-        <input type="radio" name="gender" id="female" value="female">
-      </div>
-      <div>
-        <label for="file">file</label>
-        <input type="file" name="file" id="file">
-      </div>
-      <div>
-        <label for="color">color</label>
-        <input type="color" name="color" id="color">
-      </div>
-      <div>
-        <label for="phone">phone</label>
-        <input type="tel" name="phone" id="phone">
-      </div>
-      <button type="reset">Reset</button>
-      <button id="submit-form" type="submit">submit</button>
-    </form>
-    <button id="submit">my btn</button>
-    
+    </div>
   </body>
-  <script >
-    document.getElementById("submit-form").addEventListener('click', function (e) {
-e.preventDefault()
-  const form = document.querySelector('#myForm');
-  const formData = new FormData(form);
-  const formObj = Object.fromEntries(formData.entries());
-  
-  
-  console.log(formObj.email);
-
-})
-  </script>
 </html>
