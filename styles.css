@@ -1,8 +1,35 @@
-. {
+* {
     box-sizing: border-box;
 }
 body {
-    background-color:aqua;
+    background-color:azure;
     Display: flex;
     align-items: center;
+    justify-items: center;
+    margin:0;
+    min-height: 100mv;
+}
+.container {
+    background-color:aquamarine;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    width: 400px ;
+    max-width:100%;
+}
+.header{
+    padding: 20px 40px;
+    border-bottom: 1px solid blue;
+    border-color:black
+    }
+    .form-control i{
+        position: absolute
+        top: 40px
+        right: 10px
+        visibility:hidden
+    }
+.form-button{
+    background-color: blueviolet;
+    border:2px solid white;
+    color:blueviolet
+    Display: block
 }
