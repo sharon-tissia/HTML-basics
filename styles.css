@@ -1,35 +1,21 @@
-* {
-    box-sizing: border-box;
+.red {
+    color: red
+}
+h1 {
+    color:blue
 }
 body {
-    background-color:azure;
-    Display: flex;
-    align-items: center;
-    justify-items: center;
-    margin:0;
-    min-height: 100mv;
+    color:black
 }
-.container {
-    background-color:aquamarine;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-    width: 400px ;
-    max-width:100%;
+.box {
+    height:90px;
+    width: 90px;
+    margin:50px;
+    padding:20px;
+    margin: 50px;
+    border: 20px solid black;
+    background-color: blue
+
+
 }
-.header{
-    padding: 20px 40px;
-    border-bottom: 1px solid blue;
-    border-color:black
-    }
-    .form-control i{
-        position: absolute
-        top: 40px
-        right: 10px
-        visibility:hidden
-    }
-.form-button{
-    background-color: blueviolet;
-    border:2px solid white;
-    color:blueviolet
-    Display: block
 }
